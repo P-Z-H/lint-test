@@ -1,4 +1,4 @@
 {
-  head-script-disabled = false,
-  spec-char-escape = false
+  "head-script-disabled" = false,
+  "spec-char-escape" = false
 }
