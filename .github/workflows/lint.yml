@@ -24,6 +24,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LINTER_RULES_PATH: /.github/linters/
-          VALIDATE_HTML: true
         with:
           args: source
