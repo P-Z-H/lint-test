@@ -26,8 +26,8 @@ const shakeBtn = document.querySelector('#shake-btn');
 
 shakeBtn.addEventListener('click', () => {
     // Remove any animation classes
-    magic8Ball.classList.remove('shake');
-    magic8BallMessage.classList.remove('hologram');
+  magic8Ball.classList.remove('shake');
+  magic8BallMessage.classList.remove('hologram');
 
     // Clear message before shaking
     magic8BallMessage.textContent = '';
